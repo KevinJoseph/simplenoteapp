@@ -35,9 +35,6 @@
                                         <Card.Text>
                                         {note.content}
                                         </Card.Text>
-                                        <footer className="blockquote-footer">
-                                            By: <cite title="Source Title">{note.author}</cite>
-                                        </footer>
                                     </Card.Body>
                                 </Card>
                             </div>
