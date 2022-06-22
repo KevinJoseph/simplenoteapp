@@ -12,7 +12,7 @@ const NavHome = () => {
             <br></br>
             <Navbar bg="light" >
                 <Container>
-                    <Navbar.Brand><FontAwesomeIcon icon={faQuoteLeft} /> <NavLink style={{textDecoration:'none', color:'black'}} to='/note/list' end>Notes - XXXXXXX</NavLink>    <FontAwesomeIcon icon={faQuoteRight} /></Navbar.Brand>
+                    <Navbar.Brand><FontAwesomeIcon icon={faQuoteLeft} /> <NavLink style={{textDecoration:'none', color:'black'}} to='/note/list' end>Notes</NavLink>    <FontAwesomeIcon icon={faQuoteRight} /></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className='ms-auto'>
